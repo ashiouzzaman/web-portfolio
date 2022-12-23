@@ -16,22 +16,22 @@ h2{
     font-weight: 600;
 }
 h3{
-    font-weight: 600;
+    font-weight: 500;
 }
 
 p{
     color: dimgray;
 }
 
-.name-highlight{
+.orang-highlight{
     color: orange;
 }
 
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 7%;
-    /* padding-left: 2%; */
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .half-width img{
@@ -64,4 +64,34 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.exprience-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left  ;
+}
+.section-title{
+    margin-left: 5%;
+}
+
+.exprience-card{
+    height: 80%;
+    box-shadow: 8px 8px 40px grey;
+}
+
+#pro-developer-card{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-developer-card{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
